@@ -1,0 +1,3 @@
+Hey, thank you for comming in here to see some of what i can do.
+
+This project is a comment section with a small backend to create, read, update and delete comments and a frontend made with React. If you want to see more go to the [server](https://github.com/Felipe-Pedro/comment-section/tree/main/server) directory for the backend or go to the [my-app](https://github.com/Felipe-Pedro/comment-section/tree/main/my-app) directory for the frontend.
