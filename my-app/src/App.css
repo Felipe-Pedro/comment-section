@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Rubik:wght@400;500;700&display=swap');
+
+body {
+    background-color: hsl(228, 33%, 97%);
+    font-family: 'Rubik';
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.comment:first-of-type {
+    margin-top: 30px;
+}
+
+.comment {
+    margin: 0 15px 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.comment-header, .comment-content, .comment-footer {
+    padding: 15px;
+}
+
+.comment-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.username {
+    margin: 0 10px;
+    color: hsl(212, 24%, 26%);
+    font-weight: 500;
+}
+
+.comment-date {
+    color: hsl(211, 10%, 45%);
+}
+
+.comment-content {
+    color: hsl(211, 10%, 45%);
+}
+
+.comment-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.comment-rate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(223, 19%, 93%);
+}
+
+.rate-button {
+    display: flex;
+    align-items: center;
+}
+
+.comment-rate {
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+
+.reply-comment {
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.comment-form {
+    margin: 15px;
+    background-color: white;
+}
+
+.comment-input {
+    margin: 15px;
+    padding: 15px 20px;
+    width: 79%;
+    height: 60px;
+    resize: none;
+    border-radius: 5px;
+    border-color: hsl(223, 19%, 93%);
+    font-size: 16px;
+    font-family: 'Rubik';
+}
+
+.line-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit {
+    width: 100px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(238, 40%, 52%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.replies {
+    margin-left: 15px;
+    border-left: 2px solid hsl(223, 19%, 93%);
+}
+
+.tag {
+    display: inline;
+    margin-right: 3px;
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+}
