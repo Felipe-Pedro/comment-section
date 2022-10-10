@@ -1,4 +1,3 @@
-const { Router } = require('express');
 const express = require('express');
 
 const db = require('../database/database');
@@ -18,7 +17,7 @@ router.get('/', async function (req, res) {
         }
         res.json(comments);
     } catch(error) {
-        res.send(406);
+        res.sendStatus(406);
     }
   });
 
